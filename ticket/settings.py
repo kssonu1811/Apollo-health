@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure--(^z!6xiz)2nwt+**&n%=8ybh)5@)2lu+6a(u=1_5lf!^&xp1y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fierce-plains-21093.herokuapp.com','kssapollo.co', 'www.kssapplo.co']
+ALLOWED_HOSTS = ['murmuring-fortress-24549.herokuapp.com','kssapollo.co', 'www.kssapplo.co']
 
 
 # Application definition
