@@ -17,33 +17,72 @@
     }
 },
 {
-    "model": "sessions.session",
-    "pk": "l5t1x3s2rubqax4n5h5ry1x2zpqij957",
+    "model": "auth.user",
     "fields": {
-        "session_data": ".eJxVjDkOwjAQRe_iGlleGC-U9DmDNeMFB5AtxUmFuDtESgHtf-_9Fwu4rTVsIy9hTuzCJDv9boTxkdsO0h3brfPY27rMxHeFH3Twqaf8vB7u30HFUb81uRylJYjFpeLIaNJFeo3GeuvAKTKiCANAWpx9xihTkUpAAjCRdFbs_QHuIjfY:1mJGmH:B1xjwjEkxFhVv3jm77h3FMEzH2VaSpqxouwvVIHIM6Q",
-        "expire_date": "2021-09-09T14:54:49.933Z"
+        "password": "pbkdf2_sha256$260000$H4BRLvsEmiV0g4jrvcuqIh$iyHnWJVdtMWTudOQ98DfO2caz80qVT7H52IYMI7vTEM=",
+        "last_login": "2021-08-27T03:32:03.039Z",
+        "is_superuser": true,
+        "username": "sajan",
+        "first_name": "",
+        "last_name": "",
+        "email": "ksajansonu@yahoo.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-08-27T02:48:58.327Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "73g5j1d9i8axc40zh02p35vrkk3q1top",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBmGBBduu8ZGhhGqRpISrsy3l2bdKHb_977LzXGdSnj2mUep6zOCtXhd0uRH1I3kO-x3prmVpd5SnpT9E67HlqW52V3_w5K7OVbQyJxDsPVCjBYEeN9ouCRMHjDlgIbQYvoPEFiBgIQjM4w4umYQb0_u0U2jw:1mJSb5:OTd3MJ80rM5OR8E6yw9DrZ1j6EEfmHBB3IEOJCBIskE",
+        "expire_date": "2021-09-10T03:32:03.041Z"
     }
 },
 {
     "model": "ticket_app1.appointment",
-    "pk": 18,
+    "pk": 26,
+    "fields": {
+        "first_name": "Anshu",
+        "last_name": "Priya",
+        "phone": "+918295250119",
+        "phone1": "+918295250119",
+        "c_add": "Bhagalpur",
+        "c_city": "Bhagalpur",
+        "c_state": "Bihar",
+        "c_zip": 810000,
+        "p_add": "Bhagalpur",
+        "p_city": "Bhagalpur",
+        "p_state": "Bihar",
+        "p_zip": 81000,
+        "email": "ksajansonu@gmail.com",
+        "messagees": "Hello",
+        "a_date_time": "2021-08-31T16:35:00Z",
+        "created_date": "2021-08-28T11:36:05.837Z"
+    }
+},
+{
+    "model": "ticket_app1.appointment",
+    "pk": 27,
     "fields": {
         "first_name": "kumar",
         "last_name": "sajansonu",
         "phone": "+918295250119",
         "phone1": "+918295250119",
-        "c_add": "hyderabad",
-        "c_city": "hyderabad",
-        "c_state": "telangana",
-        "c_zip": 50000,
-        "p_add": "bhagalpur",
-        "p_city": "bhagalpur",
-        "p_state": "bihar",
-        "p_zip": 813100,
+        "c_add": "Bhagalpur",
+        "c_city": "Bhagalpur",
+        "c_state": "Bihar",
+        "c_zip": 810000,
+        "p_add": "Bhagalpur",
+        "p_city": "Bhagalpur",
+        "p_state": "Bihar",
+        "p_zip": 810000,
         "email": "ksajansonu@gmail.com",
-        "messagees": "hello",
-        "a_date_time": "2021-10-14T06:52:00Z",
-        "created_date": "2021-08-27T01:46:51.895Z"
+        "messagees": "Hi",
+        "a_date_time": "2021-08-30T16:40:00Z",
+        "created_date": "2021-08-28T11:40:15.743Z"
     }
 },
 {
@@ -476,6 +515,60 @@
         "object_repr": "xdr@wdh.com",
         "action_flag": 3,
         "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-08-27T02:49:54.012Z",
+        "user": [
+            "kumar"
+        ],
+        "content_type": [
+            "ticket_app1",
+            "appointment"
+        ],
+        "object_id": "18",
+        "object_repr": "ksajansonu@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-08-27T18:13:44.784Z",
+        "user": [
+            "sajan"
+        ],
+        "content_type": [
+            "ticket_app1",
+            "appointment"
+        ],
+        "object_id": "23",
+        "object_repr": "xdr@wdh.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-08-27T18:28:10.176Z",
+        "user": [
+            "sajan"
+        ],
+        "content_type": [
+            "ticket_app1",
+            "appointment"
+        ],
+        "object_id": "24",
+        "object_repr": "ksajansonu@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
     }
 }
 ]
